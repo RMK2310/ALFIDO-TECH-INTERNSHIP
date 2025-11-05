@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | MyWebsite</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+.navbar {
+  background: #23252a;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  margin-right: 2rem;
+}
+
+.navbar-menu a {
+  color: #bdbdbd;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.navbar-menu a.active, .navbar-menu a:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 650px;
+  margin: 45px auto 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.07);
+  padding: 32px;
+}
+</style>
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand" href="home.html">MyWebsite</a>
+    <div class="navbar-menu">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a class="active" href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="name" /><br>
+      <label>Email:</label><br>
+      <input type="email" name="email" /><br>
+      <label>Message:</label><br>
+      <textarea name="message"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+	<h1> Offline </h1>
+	<p>
+Spice Lane Restaurant
+123 Flavor Street, Foodville, 54321
+Phone: 173-486-7096
+Email: spicelane@gmail.com
+<h1>Open Hours:</h1>
+<li>Monday-Saturday: 11am – 10pm</li>
+<li>Sunday: 11am – 8pm</li>
+<p>You can also use our online form to send us a message or book a table for any special occasion."</p>
+	</p>	
+  </div>
+</body>
+</html>
