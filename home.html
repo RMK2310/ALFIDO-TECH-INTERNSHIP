@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home | MyWebsite</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+.navbar {
+  background: #23252a;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  margin-right: 2rem;
+}
+
+.navbar-menu a {
+  color: #bdbdbd;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.navbar-menu a.active, .navbar-menu a:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 650px;
+  margin: 45px auto 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.07);
+  padding: 32px;
+}
+</style>
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand" href="home.html">Spice Lane Restaurant</a>
+    <div class="navbar-menu">
+      <a class="active" href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="service.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome to Spice Lane</h1>
+    <p>"Discover a cozy ambiance, friendly service, and a delicious blend of local and international cuisines. Explore our menu, book a table, or order online for a delectable experience that brings family and friends together."</p>
+    <ul>
+      <li>Email: spicelane@gmail.com</li>
+      <li>Phone: 173-486-7096</li>
+    </ul>
+  </div>
+</body>
+</html>
